@@ -1,0 +1,81 @@
+.greeting {
+  font-size: 1.9rem;
+  font-family: "open sans", sans-serif;
+  text-align: left;
+  line-height: 2.2rem;
+  background-color: #222;
+  color: #fff;
+}
+
+.title {
+  font-family: "poppins", sans-serif;
+  font-size: 4.2rem;
+  text-align: left;
+  line-height: 4.2rem;
+  background-color: #222;
+  color: #fff;
+}
+
+.position {
+  color: #ffb400;
+  background-color: #222;
+}
+
+.description {
+  font-family: "poppins", sans-serif;
+  font-size: 1.4rem;
+  text-align: left;
+  line-height: 3.2rem;
+  color: #fff;
+  background-color: #222;
+}
+
+.btn-secondary {
+  background-color: #222;
+  color: #ffb400;
+  border: 2px solid #ffb400;
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+}
+
+ion-icon {
+  padding: 0 1rem;
+}
+
+.profile-container {
+  background-color: #222;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding-right: 10rem;
+}
+
+.img-container {
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container img {
+  width: 70%;
+  border-radius: 70%;
+  border: 2px solid #ffb400;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
