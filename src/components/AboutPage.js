@@ -33,7 +33,7 @@ function AboutPage() {
                 <span className="col1">Experience</span> 6 Months
               </p>
             </div>
-            <div className="about-desc1">
+            {/* <div className="about-desc1">
               <p>
                 <span className="col1">Email</span> chauhansid06@gmail.com
               </p>
@@ -53,7 +53,7 @@ function AboutPage() {
                 <span className="col1">Github</span>
                 https://github.com/Siddhanth06
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

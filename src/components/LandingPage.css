@@ -23,7 +23,7 @@
 
 .description {
   font-family: "poppins", sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: left;
   line-height: 3.2rem;
   color: #fff;
@@ -41,12 +41,12 @@
 }
 
 ion-icon {
-  padding: 0 1rem;
+  /* padding: 0 1rem; */
 }
 
 .profile-container {
   background-color: #222;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,4 +78,62 @@ ion-icon {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media only screen and (max-width: 635px) {
+  html {
+    font-size: 45%;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .profile-container {
+    padding: 4rem;
+  }
+  .img-container img {
+    width: 60%;
+  }
+  .title {
+    line-height: 8rem;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  html {
+    font-size: 30%;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .profile-container {
+    padding: 5rem 2rem;
+  }
+  /* .container {
+    height: 50vh;
+  } */
 }
