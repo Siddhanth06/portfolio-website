@@ -2,7 +2,7 @@ import "./AboutPage.css";
 function AboutPage() {
   return (
     <>
-      <div className="container about-container">
+      <div className="container about-container" id="about">
         <div>
           <h1 className="about-title">
             ABOUT <span className="highlight">ME</span>
@@ -18,7 +18,7 @@ function AboutPage() {
             <img src="./abt-PhotoRoom.png" alt="ds" />
           </div>
           <div className="about-desc">
-            <div className="about-desc1">
+            {/* <div className="about-desc1">
               <p>
                 <span className="col1">Firstname</span> Siddhanth
               </p>
@@ -32,7 +32,7 @@ function AboutPage() {
               <p>
                 <span className="col1">Experience</span> 6 Months
               </p>
-            </div>
+            </div> */}
             {/* <div className="about-desc1">
               <p>
                 <span className="col1">Email</span> chauhansid06@gmail.com
@@ -54,6 +54,15 @@ function AboutPage() {
                 https://github.com/Siddhanth06
               </p>
             </div> */}
+            <p>
+              My expertise lies in HTML, CSS, JavaScript, React.js, PHP, and
+              MySQL. During my 6-month work experience as a software developer,
+              I have actively contributed to the design, development, and
+              maintenance of web applications. I possess a solid understanding
+              of front-end development, including creating responsive layouts,
+              implementing dynamic user interfaces, and optimizing website
+              performance
+            </p>
           </div>
         </div>
       </div>

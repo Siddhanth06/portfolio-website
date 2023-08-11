@@ -12,7 +12,12 @@
   line-height: 6.6rem;
   color: #fff;
 }
-
+/* .align {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  font-weight: bold;
+} */
 .contact-subtitle {
   font-family: "open sans", sans-serif;
   color: #fff;
@@ -45,6 +50,9 @@
   font-family: "open sans", sans-serif;
   text-align: left;
   line-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
 }
 
 .contact-detail {
@@ -275,7 +283,7 @@
     line-height: 3rem;
   }
   .form-title {
-    padding: 0 1rem;
+    padding: 0 4rem;
   }
   .form {
     /* padding: 0 4rem; */

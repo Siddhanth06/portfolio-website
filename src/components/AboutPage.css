@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 10rem 2rem;
 }
 
 .about-title {
@@ -30,8 +31,8 @@
 }
 
 .about-img-div {
-  display: flex;
-  justify-content: right;
+  /* display: flex; */
+  /* justify-content: right; */
   align-items: center;
   padding: 5rem;
 }
@@ -55,9 +56,12 @@
   align-items: center;
   justify-content: left;
   font-family: "open sans", sans-serif;
-  font-size: 1.6rem;
-  padding: 0 5rem;
+  font-size: 1.9rem;
+  /* padding: 0 5rem; */
   gap: 6rem;
+  text-align: start;
+  line-height: 3.5rem;
+  padding-right: 9rem;
 }
 
 .about-desc1 p {
@@ -69,4 +73,25 @@
 .col1 {
   color: #eee;
   margin-right: 1.5rem;
+}
+
+@media only screen and (max-width: 838px) {
+  .about-content {
+    grid-template-columns: 1fr;
+  }
+
+  .about-desc {
+    padding-right: 0;
+    text-align: justify;
+    padding: 2rem;
+  }
+
+  .about-img-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-img-div img {
+    width: 80%;
+  }
 }

@@ -1,3 +1,7 @@
+/* .landing-container {
+  margin: 5rem 0rem;
+} */
+
 .greeting {
   font-size: 1.9rem;
   font-family: "open sans", sans-serif;
@@ -38,10 +42,6 @@
   border-radius: 3rem;
   font-size: 1.4rem;
   margin-left: 1rem;
-}
-
-ion-icon {
-  /* padding: 0 1rem; */
 }
 
 .profile-container {
@@ -102,6 +102,12 @@ ion-icon {
   html {
     font-size: 45%;
   }
+  /* .title {
+    line-height: 1rem;
+  } */
+  .profile-container {
+    padding-right: 3rem;
+  }
 }
 
 @media only screen and (max-width: 635px) {
@@ -119,6 +125,9 @@ ion-icon {
   }
   .title {
     line-height: 8rem;
+  }
+  .container {
+    /* height: 100vh !important; */
   }
 }
 

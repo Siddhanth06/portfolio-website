@@ -7,7 +7,7 @@ function LandingPage() {
   });
   return (
     <>
-      <div className="container grid grid-2">
+      <div className="container grid grid-2 landing-container">
         <div className="img-container">
           <img
             src="/siddhant.png"
@@ -27,27 +27,33 @@ function LandingPage() {
           </div>
           <div>
             <p className="description">
-              My expertise lies in HTML, CSS, JavaScript, React.js, PHP, and
-              MySQL. During my 6-month work experience as a software developer,
-              I have actively contributed to the design, development, and
-              maintenance of web applications. I possess a solid understanding
-              of front-end development, including creating responsive layouts,
-              implementing dynamic user interfaces, and optimizing website
-              performance
+              "Passionate full-stack developer with a knack for crafting
+              seamless digital solutions. Bridging creativity and functionality,
+              I bring ideas to life through elegant code."
             </p>
           </div>
           <div>
             <button className="btn-primary">
-              <ion-icon name="person" className="person"></ion-icon>MORE ABOUT
-              ME
-            </button>
-            <button className="btn-secondary">
               <a
                 href="./SidResume.pdf"
                 download
-                style={{ textDecoration: "none", color: "#ffb400" }}
+                style={{
+                  textDecoration: "none",
+                  color: "#000",
+                  fontWeight: "bold",
+                  fontSize: "1.5rem",
+                }}
               >
                 <ion-icon name="briefcase"></ion-icon>Download My CV
+              </a>
+            </button>
+            <button className="btn-secondary ">
+              <a
+                href="#about"
+                style={{ textDecoration: "none", color: "#ffb400" }}
+              >
+                <ion-icon name="person" className="person"></ion-icon>MORE ABOUT
+                ME
               </a>
             </button>
           </div>
