@@ -58,23 +58,34 @@ function Projects() {
               </div>
             </a>
           </div>
+          <div className="project-card">
+            <img src="/crm.png" alt="" />
+            <a
+              href="https://github.com/Siddhanth06/laravel-crm-project"
+              target="_blank"
+            >
+              <div className="overlay">
+                <h1>Laravel CRM Project</h1>
+                <p>
+                  This is CRM Project built using laravel and mysql database.It
+                  is a leads and deals management system.
+                </p>
+              </div>
+            </a>
+          </div>
           {/* <div className="project-card">
-            sbdlab sfjbdsf sdlfjbsf dslfjsf sfjbsdf
-          </div>
-          <div className="project-card">
-            sbdlab sfjbdsf sdlfjbsf dslfjsf sfjbsdf
-          </div>
-          <div className="project-card">
-            sbdlab sfjbdsf sdlfjbsf dslfjsf sfjbsdf
-          </div>
-          <div className="project-card">
-            sbdlab sfjbdsf sdlfjbsf dslfjsf sfjbsdf
-          </div>
-          <div className="project-card">
-            sbdlab sfjbdsf sdlfjbsf dslfjsf sfjbsdf
-          </div>
-          <div className="project-card">
-            sbdlab sfjbdsf sdlfjbsf dslfjsf sfjbsdf
+            <img src="/cinema.png" alt="" />
+            <a
+              href="https://github.com/Siddhanth06/laravel-cinema-app"
+              target="_blank"
+            >
+              <div className="overlay">
+                <h1>Laravel Cinema App</h1>
+                <p>
+                  Movies application built using laravel and mysql database.
+                </p>
+              </div>
+            </a>
           </div> */}
         </div>
       </div>
